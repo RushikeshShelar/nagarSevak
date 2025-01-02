@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/index.js",
+    "start": "node public/index.js",
     "build": " npm install typescript && npx tsc"
   },
   "keywords": [],
