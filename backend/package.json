@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node public/index.js",
-    "build": " npm install typescript && npx tsc"
+    "build": "npx prisma generate && npx tsc"
   },
   "keywords": [],
   "author": "",
